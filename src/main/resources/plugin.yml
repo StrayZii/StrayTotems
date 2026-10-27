@@ -1,0 +1,31 @@
+name: StrayTotems
+version: '1.0'
+main: org.strayzii.strayTotems.StrayTotems
+api-version: '1.21'
+
+commands:
+  straytotems:
+    aliases: ["totems"]
+    description: "The main command of the plugin."
+    default: op
+
+permissions:
+  straytotems.*:
+    description: "The permission that allows you anything."
+    default: op
+    children:
+      straytotems.get: true
+      straytotems.set: true
+      straytotems.reload: true
+
+  straytotems.get:
+    description: "Allows you to use /straytotems get"
+    default: op
+
+  straytotems.set:
+    description: "Allows you to use /straytotems set"
+    default: op
+
+  straytotems.reload:
+    description: "Allows you to use /straytotems reload"
+    default: op

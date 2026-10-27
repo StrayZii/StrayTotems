@@ -1,0 +1,23 @@
+max-totems: 3
+
+messages:
+  # to use in messages, just write down $prefix
+  prefix: "§x§4§4§9§8§D§Bᴛᴏᴛᴇᴍs &8»&r"
+
+  # available placeholders:
+  # $amount = shows the max-totems value.
+  on-max-totems: "$prefix §x§B§5§C§4§E§0В инвентаре может находится максимум $amount тотемов."
+
+  no-permission: "$prefix §x§B§5§C§4§E§0У вас нет прав на использование данной команды!"
+
+  commands:
+    # available placeholders:
+    # $amount = shows the max-totems value.
+    get: "$prefix §x§B§5§C§4§E§0ВМаксимум тотемов на данный момент: $amount"
+
+    # available placeholders:
+    # $new = shows the new amount of max totems
+    # $old = shows the old amount of max totems
+    set: "$prefix §x§B§5§C§4§E§0ВМаксимум тотемов был изменён. $old -> $new"
+
+    reload: "$prefix §x§B§5§C§4§E§0ВКонфигурация была успешно перезагружена"
